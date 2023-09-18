@@ -1,0 +1,146 @@
+[
+ {
+  "id": 1,
+  "name": "Router TP Link",
+  "categories": [
+  {
+    "id": 1,
+    "name": "Routers"
+  }
+  ],
+  "product_picture": "https://s3.us-east-1.amazonaws.com/juan-corredor-sandbox/images/products/ezgif.com-gif-maker.jpg",
+  "is_favorite": false,
+  "unit_price": "375.00",
+  "num_available_items": 4,
+  "state": "N",
+  "state_display": "New"
+},
+ {
+  "id": 2,
+  "name": "Playstation 4 Pro 1 TB",
+  "categories": [
+  {
+    "id": 2,
+    "name": "Consoles"
+  }
+  ],
+  "product_picture": "https://s3.us-east-1.amazonaws.com/juan-corredor-sandbox/images/products/ps4 pro.jpg",
+  "is_favorite": false,
+  "unit_price": "1400.00",
+  "num_available_items": 10,
+  "state": "N",
+  "state_display": "New"
+},
+ {
+  "id": 3,
+  "name": "The Last of Us Part 1",
+  "categories": [
+  {
+    "id": 2,
+    "name": "Consoles"
+  }
+  ],
+  "product_picture": "https://s3.us-east-1.amazonaws.com/juan-corredor-sandbox/images/products/ezgif.com-gif-maker (1).jpg",
+  "is_favorite": false,
+  "unit_price": "300.00",
+  "num_available_items": 8,
+  "state": "N",
+  "state_display": "New"
+},
+ {
+  "id": 4,
+  "name": "Baumler chair",
+  "categories": [
+  {
+    "id": 3,
+    "name": "Furniture"
+  }
+  ],
+  "product_picture": "https://s3.us-east-1.amazonaws.com/juan-corredor-sandbox/images/products/image 1.png",
+  "is_favorite": false,
+  "unit_price": "369.00",
+  "num_available_items": 6,
+  "state": "U",
+  "state_display": "Used"
+},
+ {
+  "id": 5,
+  "name": "Montserrat chair",
+  "categories": [
+  {
+    "id": 3,
+    "name": "Furniture"
+  }
+  ],
+  "product_picture": "https://s3.us-east-1.amazonaws.com/juan-corredor-sandbox/images/products/image 2.png",
+  "is_favorite": false,
+  "unit_price": "379.00",
+  "num_available_items": 5,
+  "state": "A",
+  "state_display": "Almost new"
+},
+ {
+  "id": 6,
+  "name": "Recolette chair",
+  "categories": [
+  {
+    "id": 3,
+    "name": "Furniture"
+  }
+  ],
+  "product_picture": "https://s3.us-east-1.amazonaws.com/juan-corredor-sandbox/images/products/image 2.png",
+  "is_favorite": false,
+  "unit_price": "213.00",
+  "num_available_items": 6,
+  "state": "U",
+  "state_display": "Used"
+},
+ {
+  "id": 7,
+  "name": "Almagro chair",
+  "categories": [
+  {
+    "id": 3,
+    "name": "Furniture"
+  }
+  ],
+  "product_picture": "https://s3.us-east-1.amazonaws.com/juan-corredor-sandbox/images/products/image 2.png",
+  "is_favorite": false,
+  "unit_price": "883.00",
+  "num_available_items": 5,
+  "state": "N",
+  "state_display": "New"
+},
+ {
+  "id": 8,
+  "name": "Mauer chair",
+  "categories": [
+  {
+    "id": 3,
+    "name": "Furniture"
+  }
+  ],
+  "product_picture": "https://s3.us-east-1.amazonaws.com/juan-corredor-sandbox/images/products/image 2.png",
+  "is_favorite": false,
+  "unit_price": "229.00",
+  "num_available_items": 5,
+  "state": "A",
+  "state_display": "Almost new"
+},
+ {
+  "id": 9,
+  "name": "Rostini chair",
+  "categories": [
+  {
+    "id": 3,
+    "name": "Furniture"
+  }
+  ],
+  "product_picture": "https://s3.us-east-1.amazonaws.com/juan-corredor-sandbox/images/products/image 2.png",
+  "is_favorite": false,
+  "unit_price": "339.00",
+  "num_available_items": 7,
+  "state": "N",
+  "state_display": "New"
+}
+ ]
