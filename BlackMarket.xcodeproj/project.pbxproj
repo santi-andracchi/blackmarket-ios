@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		7574EAEA2ABE207200234876 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7574EAE92ABE207200234876 /* String.swift */; };
+		750305CE2ABDFDF100905526 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750305CD2ABDFDF100905526 /* Header.swift */; };
+		750305D02ABE05B000905526 /* SearchProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750305CF2ABE05B000905526 /* SearchProducts.swift */; };
 		75D552A32AB8BCBA0043D887 /* BlackMarketApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D552A22AB8BCBA0043D887 /* BlackMarketApp.swift */; };
 		75D552A52AB8BCBA0043D887 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D552A42AB8BCBA0043D887 /* ContentView.swift */; };
 		75D552A72AB8BCBB0043D887 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75D552A62AB8BCBB0043D887 /* Assets.xcassets */; };
@@ -44,6 +46,8 @@
 
 /* Begin PBXFileReference section */
 		7574EAE92ABE207200234876 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		750305CD2ABDFDF100905526 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		750305CF2ABE05B000905526 /* SearchProducts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchProducts.swift; sourceTree = "<group>"; };
 		75D5529F2AB8BCBA0043D887 /* BlackMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75D552A22AB8BCBA0043D887 /* BlackMarketApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BlackMarketApp.swift; path = ../BlackMarketApp.swift; sourceTree = "<group>"; };
 		75D552A42AB8BCBA0043D887 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -89,6 +93,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		750305CC2ABDFDCE00905526 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				750305CD2ABDFDF100905526 /* Header.swift */,
+				750305CF2ABE05B000905526 /* SearchProducts.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		75D552962AB8BCBA0043D887 = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +127,7 @@
 		75D552A12AB8BCBA0043D887 /* BlackMarket */ = {
 			isa = PBXGroup;
 			children = (
+				750305CC2ABDFDCE00905526 /* Views */,
 				75DE8DBD2ABDEDD500285F4D /* Preview Content */,
 				75DE8DBA2ABDDEBE00285F4D /* Application */,
 				75DE8DB12ABC945C00285F4D /* Extensions */,
@@ -336,12 +350,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				75D552A52AB8BCBA0043D887 /* ContentView.swift in Sources */,
+				750305CE2ABDFDF100905526 /* Header.swift in Sources */,
 				75DE8DA12AB9E9BE00285F4D /* ViewHelpers.swift in Sources */,
 				75DE8DA72ABB468F00285F4D /* Product.swift in Sources */,
 				7574EAEA2ABE207200234876 /* String.swift in Sources */,
 				75DE8DAC2ABB528800285F4D /* ModelData.swift in Sources */,
 				75D552A52AB8BCBA0043D887 /* ContentView.swift in Sources */,
 				75DE8DB32ABC947B00285F4D /* Color.swift in Sources */,
+				750305D02ABE05B000905526 /* SearchProducts.swift in Sources */,
 				75DE8DBC2ABDDF0000285F4D /* LocalizedString.swift in Sources */,
 				75D552A32AB8BCBA0043D887 /* BlackMarketApp.swift in Sources */,
 			);
