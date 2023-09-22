@@ -12,6 +12,9 @@
 		750305D02ABE05B000905526 /* SearchProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750305CF2ABE05B000905526 /* SearchProducts.swift */; };
 		750305D22ABE169400905526 /* ProductList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750305D12ABE169400905526 /* ProductList.swift */; };
 		750305D42ABE174800905526 /* ProductItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750305D32ABE174800905526 /* ProductItem.swift */; };
+		750305D62ABE198600905526 /* PromoDiscount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750305D52ABE198600905526 /* PromoDiscount.swift */; };
+		750305D82ABE19C900905526 /* PaymentMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750305D72ABE19C900905526 /* PaymentMethods.swift */; };
+		750305DA2ABE1A0800905526 /* PromoShipments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750305D92ABE1A0800905526 /* PromoShipments.swift */; };
 		75D552A32AB8BCBA0043D887 /* BlackMarketApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D552A22AB8BCBA0043D887 /* BlackMarketApp.swift */; };
 		75D552A52AB8BCBA0043D887 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D552A42AB8BCBA0043D887 /* ContentView.swift */; };
 		75D552A72AB8BCBB0043D887 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75D552A62AB8BCBB0043D887 /* Assets.xcassets */; };
@@ -52,6 +55,9 @@
 		750305CF2ABE05B000905526 /* SearchProducts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchProducts.swift; sourceTree = "<group>"; };
 		750305D12ABE169400905526 /* ProductList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductList.swift; sourceTree = "<group>"; };
 		750305D32ABE174800905526 /* ProductItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItem.swift; sourceTree = "<group>"; };
+		750305D52ABE198600905526 /* PromoDiscount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoDiscount.swift; sourceTree = "<group>"; };
+		750305D72ABE19C900905526 /* PaymentMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethods.swift; sourceTree = "<group>"; };
+		750305D92ABE1A0800905526 /* PromoShipments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoShipments.swift; sourceTree = "<group>"; };
 		75D5529F2AB8BCBA0043D887 /* BlackMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75D552A22AB8BCBA0043D887 /* BlackMarketApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BlackMarketApp.swift; path = ../BlackMarketApp.swift; sourceTree = "<group>"; };
 		75D552A42AB8BCBA0043D887 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -104,6 +110,9 @@
 				750305CF2ABE05B000905526 /* SearchProducts.swift */,
 				750305D12ABE169400905526 /* ProductList.swift */,
 				750305D32ABE174800905526 /* ProductItem.swift */,
+				750305D52ABE198600905526 /* PromoDiscount.swift */,
+				750305D72ABE19C900905526 /* PaymentMethods.swift */,
+				750305D92ABE1A0800905526 /* PromoShipments.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -356,6 +365,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				750305D42ABE174800905526 /* ProductItem.swift in Sources */,
+				750305DA2ABE1A0800905526 /* PromoShipments.swift in Sources */,
+				750305D62ABE198600905526 /* PromoDiscount.swift in Sources */,
 				75D552A52AB8BCBA0043D887 /* ContentView.swift in Sources */,
 				750305CE2ABDFDF100905526 /* Header.swift in Sources */,
 				75DE8DA12AB9E9BE00285F4D /* ViewHelpers.swift in Sources */,
@@ -364,6 +375,7 @@
 				75DE8DAC2ABB528800285F4D /* ModelData.swift in Sources */,
 				75D552A52AB8BCBA0043D887 /* ContentView.swift in Sources */,
 				75DE8DB32ABC947B00285F4D /* Color.swift in Sources */,
+				750305D82ABE19C900905526 /* PaymentMethods.swift in Sources */,
 				750305D02ABE05B000905526 /* SearchProducts.swift in Sources */,
 				750305D22ABE169400905526 /* ProductList.swift in Sources */,
 				75DE8DBC2ABDDF0000285F4D /* LocalizedString.swift in Sources */,

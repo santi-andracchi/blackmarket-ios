@@ -16,6 +16,9 @@ struct ContentView: View {
       Header()
       SearchProducts()
       ProductList(items: modelData.products)
+      PromoDiscount()
+      PaymentMethods()
+      PromoShipments()
       Spacer()
     }
   }
