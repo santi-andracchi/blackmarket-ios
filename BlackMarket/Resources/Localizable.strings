@@ -9,4 +9,13 @@
 // MARK: DASH BOARD
 "dashboard_search_products" = "Search for products";
 "dashboard_sea_all_link" = "See all";
+"dashboard_promo_discount_title" = "Check out our new and restored furniture";
+"dashboard_promo_discount_subtitle" = "Shop today and get a 10% discount";
+"dashboard_payment_title" = "Payment methods";
+"dashboard_payment_credit_label" = "Credit";
+"dashboard_payment_paypal_label" = "Paypal";
+"dashboard_payment_crypto_label" = "Crypto";
+"dashboard_promo_discount_title" = "We upgraded our shipments many levels up.";
+"dashboard_promo_discount_subtitle" = "Powered by FedEx";
+
 
