@@ -20,11 +20,17 @@ struct ProductList: View {
           }
         }
       }.background(Color.dashboardBackground)
-      Text("See all")
+      Text(LocalizedString.ProductList.label)
         .foregroundColor(.blue)
         .bold()
         .padding(EdgeInsets(top: 16, leading: 16, bottom: 16, trailing: 16))
     }.padding(EdgeInsets(top: 16, leading: 16, bottom: 0, trailing: 16)).background(Color.dashboardBackground)
+  }
+}
+
+private extension LocalizedString {
+  enum ProductList {
+    static let label = "dashboard_sea_all_link".localized
   }
 }
 
