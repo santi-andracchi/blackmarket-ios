@@ -12,7 +12,7 @@ struct SearchProducts: View {
 
     var body: some View {
       VStack {
-        TextField("", text: $productName, prompt: Text("Search for products"))
+        TextField("", text: $productName, prompt: Text(LocalizedString.SearchProducts.label))
           .frame(height: 40)
           .textFieldStyle(PlainTextFieldStyle())
           .padding([.horizontal], 16)
@@ -21,6 +21,12 @@ struct SearchProducts: View {
           .padding([.horizontal], 16)
       }
     }
+}
+
+private extension LocalizedString {
+  enum SearchProducts {
+    static let label = "dashboard_search_products".localized
+  }
 }
 
 struct SearchProducts_Previews: PreviewProvider {
