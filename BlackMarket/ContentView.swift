@@ -13,7 +13,7 @@ struct ContentView: View {
   var body: some View {
     VStack {
       Spacer().frame(height: 1)
-      }
+    }
   }
 }
 

@@ -43,7 +43,7 @@
 
 /* Begin PBXFileReference section */
 		75D5529F2AB8BCBA0043D887 /* BlackMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		75D552A22AB8BCBA0043D887 /* BlackMarketApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackMarketApp.swift; sourceTree = "<group>"; };
+		75D552A22AB8BCBA0043D887 /* BlackMarketApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BlackMarketApp.swift; path = ../BlackMarketApp.swift; sourceTree = "<group>"; };
 		75D552A42AB8BCBA0043D887 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		75D552A62AB8BCBB0043D887 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75D552A92AB8BCBB0043D887 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -112,7 +112,6 @@
 		75D552A12AB8BCBA0043D887 /* BlackMarket */ = {
 			isa = PBXGroup;
 			children = (
-				75D552A22AB8BCBA0043D887 /* BlackMarketApp.swift */,
 				75DE8DBD2ABDEDD500285F4D /* Preview Content */,
 				75DE8DBA2ABDDEBE00285F4D /* Application */,
 				75DE8DB12ABC945C00285F4D /* Extensions */,
@@ -179,6 +178,7 @@
 		75DE8DBA2ABDDEBE00285F4D /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				75D552A22AB8BCBA0043D887 /* BlackMarketApp.swift */,
 				75DE8DBB2ABDDF0000285F4D /* LocalizedString.swift */,
 			);
 			path = Application;
