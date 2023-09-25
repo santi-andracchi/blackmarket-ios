@@ -9,14 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
   @EnvironmentObject var modelData: ModelData
-
+  
   var body: some View {
     VStack {
       Spacer().frame(height: 1)
       Header()
       SearchProducts()
       Spacer()
-      }
+    }
   }
 }
 
