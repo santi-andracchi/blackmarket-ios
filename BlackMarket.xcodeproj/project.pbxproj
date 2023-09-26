@@ -11,10 +11,10 @@
 		750305D02ABE05B000905526 /* SearchProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750305CF2ABE05B000905526 /* SearchProductsView.swift */; };
 		750305D22ABE169400905526 /* ProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750305D12ABE169400905526 /* ProductListView.swift */; };
 		750305D42ABE174800905526 /* ProductItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750305D32ABE174800905526 /* ProductItemView.swift */; };
+		750305D62ABE198600905526 /* PromoDiscountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750305D52ABE198600905526 /* PromoDiscountView.swift */; };
+		750305D82ABE19C900905526 /* PaymentMethodsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750305D72ABE19C900905526 /* PaymentMethodsView.swift */; };
+		750305DA2ABE1A0800905526 /* PromoShipmentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750305D92ABE1A0800905526 /* PromoShipmentsView.swift */; };
 		7574EAEA2ABE207200234876 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7574EAE92ABE207200234876 /* String.swift */; };
-		750305D62ABE198600905526 /* PromoDiscount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750305D52ABE198600905526 /* PromoDiscount.swift */; };
-		750305D82ABE19C900905526 /* PaymentMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750305D72ABE19C900905526 /* PaymentMethods.swift */; };
-		750305DA2ABE1A0800905526 /* PromoShipments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750305D92ABE1A0800905526 /* PromoShipments.swift */; };
 		758112842AC339AF004819DB /* ImageNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758112832AC339AF004819DB /* ImageNames.swift */; };
 		75D552A32AB8BCBA0043D887 /* BlackMarketApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D552A22AB8BCBA0043D887 /* BlackMarketApp.swift */; };
 		75D552A52AB8BCBA0043D887 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D552A42AB8BCBA0043D887 /* ContentView.swift */; };
@@ -55,10 +55,10 @@
 		750305CF2ABE05B000905526 /* SearchProductsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchProductsView.swift; sourceTree = "<group>"; };
 		750305D12ABE169400905526 /* ProductListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListView.swift; sourceTree = "<group>"; };
 		750305D32ABE174800905526 /* ProductItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItemView.swift; sourceTree = "<group>"; };
+		750305D52ABE198600905526 /* PromoDiscountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoDiscountView.swift; sourceTree = "<group>"; };
+		750305D72ABE19C900905526 /* PaymentMethodsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethodsView.swift; sourceTree = "<group>"; };
+		750305D92ABE1A0800905526 /* PromoShipmentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoShipmentsView.swift; sourceTree = "<group>"; };
 		7574EAE92ABE207200234876 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
-		750305D52ABE198600905526 /* PromoDiscount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoDiscount.swift; sourceTree = "<group>"; };
-		750305D72ABE19C900905526 /* PaymentMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethods.swift; sourceTree = "<group>"; };
-		750305D92ABE1A0800905526 /* PromoShipments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoShipments.swift; sourceTree = "<group>"; };
 		758112832AC339AF004819DB /* ImageNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageNames.swift; sourceTree = "<group>"; };
 		75D5529F2AB8BCBA0043D887 /* BlackMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75D552A22AB8BCBA0043D887 /* BlackMarketApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BlackMarketApp.swift; path = ../BlackMarketApp.swift; sourceTree = "<group>"; };
@@ -108,9 +108,9 @@
 		750305CC2ABDFDCE00905526 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				750305D52ABE198600905526 /* PromoDiscount.swift */,
-				750305D72ABE19C900905526 /* PaymentMethods.swift */,
-				750305D92ABE1A0800905526 /* PromoShipments.swift */,
+				750305D52ABE198600905526 /* PromoDiscountView.swift */,
+				750305D72ABE19C900905526 /* PaymentMethodsView.swift */,
+				750305D92ABE1A0800905526 /* PromoShipmentsView.swift */,
 				750305CD2ABDFDF100905526 /* HeaderView.swift */,
 				750305CF2ABE05B000905526 /* SearchProductsView.swift */,
 				750305D12ABE169400905526 /* ProductListView.swift */,
@@ -367,8 +367,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				750305DA2ABE1A0800905526 /* PromoShipments.swift in Sources */,	
-				750305D62ABE198600905526 /* PromoDiscount.swift in Sources */,
+				750305DA2ABE1A0800905526 /* PromoShipmentsView.swift in Sources */,
+				750305D62ABE198600905526 /* PromoDiscountView.swift in Sources */,
 				75D552A52AB8BCBA0043D887 /* ContentView.swift in Sources */,
 				750305D42ABE174800905526 /* ProductItemView.swift in Sources */,
 				75D552A52AB8BCBA0043D887 /* ContentView.swift in Sources */,
@@ -380,7 +380,7 @@
 				75DE8DAC2ABB528800285F4D /* ModelData.swift in Sources */,
 				75D552A52AB8BCBA0043D887 /* ContentView.swift in Sources */,
 				75DE8DB32ABC947B00285F4D /* Color.swift in Sources */,
-				750305D82ABE19C900905526 /* PaymentMethods.swift in Sources */,
+				750305D82ABE19C900905526 /* PaymentMethodsView.swift in Sources */,
 				750305D02ABE05B000905526 /* SearchProductsView.swift in Sources */,
 				750305D22ABE169400905526 /* ProductListView.swift in Sources */,
 				75DE8DBC2ABDDF0000285F4D /* LocalizedString.swift in Sources */,

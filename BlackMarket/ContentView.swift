@@ -17,9 +17,9 @@ struct ContentView: View {
         HeaderView()
         SearchProductsView()
         ProductListView(items: modelData.products)
-        PromoDiscount().background(Color.lightGray)
-        PaymentMethods()
-        PromoShipments().background(Color.lightGray)
+        PromoDiscountView().background(Color.lightGray)
+        PaymentMethodsView()
+        PromoShipmentsView().background(Color.lightGray)
         Spacer()
       }
     }

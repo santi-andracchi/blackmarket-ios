@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct PaymentMethods: View {
+struct PaymentMethodsView: View {
   var body: some View {
     VStack(alignment: .center) {
       Text(LocalizedString.PaymentMethods.title)
@@ -19,22 +19,25 @@ struct PaymentMethods: View {
             .padding(.top, 14)
         }
         Image("blackmarket_line")
-          .padding(EdgeInsets(top: 0, leading:22, bottom: 0, trailing:22))
+          .padding(.vertical, 0)
+          .padding(.horizontal, 22)
         VStack(alignment: .center) {
           Image("blackmarket_paypal")
           Text(LocalizedString.PaymentMethods.paypal)
             .padding(.top, 11)
         }
         Image("blackmarket_line")
-          .padding(EdgeInsets(top: 0, leading:22, bottom: 0, trailing:22))
+          .padding(.vertical, 0)
+          .padding(.horizontal, 22)
         VStack(alignment: .center) {
           Image("blackmarket_crypto")
           Text(LocalizedString.PaymentMethods.crypto)
             .padding(.top, 12)
         }
       }.padding(.top, 41)
-    }.padding(.top, 30)
-      .padding(.bottom, 45)
+    }
+    .padding(.top, 30)
+    .padding(.bottom, 45)
   }
 }
 
@@ -47,8 +50,8 @@ private extension LocalizedString {
   }
 }
 
-struct PaymentMethods_Previews: PreviewProvider {
+struct PaymentMethodsView_Previews: PreviewProvider {
   static var previews: some View {
-    PaymentMethods()
+    PaymentMethodsView()
   }
 }

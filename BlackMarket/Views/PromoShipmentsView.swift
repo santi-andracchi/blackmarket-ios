@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct PromoShipments: View {
+struct PromoShipmentsView: View {
   var body: some View {
     HStack(alignment: .center) {
       VStack(alignment: .leading) {
@@ -24,9 +24,11 @@ struct PromoShipments: View {
       .padding(EdgeInsets(top: 0, leading: 15, bottom: 0, trailing: 0))
       .background(.black)
       Image("blackmarket_fedex").background(.black)
-    }.background(.black)
-      .cornerRadius(8)
-      .padding(EdgeInsets(top: 26, leading: 23, bottom: 26, trailing: 23))
+    }
+    .background(.black)
+    .cornerRadius(8)
+    .padding(.vertical, 26)
+    .padding(.horizontal, 23)
   }
 }
 
@@ -37,8 +39,8 @@ private extension LocalizedString {
   }
 }
 
-struct PromoShipments_Previews: PreviewProvider {
+struct PromoShipmentsView_Previews: PreviewProvider {
   static var previews: some View {
-    PromoShipments()
+    PromoShipmentsView()
   }
 }
