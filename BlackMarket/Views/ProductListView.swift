@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ProductList: View {
+struct ProductListView: View {
   
   var items: [Product]
   
@@ -16,15 +16,17 @@ struct ProductList: View {
       ScrollView(.horizontal, showsIndicators: false) {
         HStack(spacing: 8) {
           ForEach(items) { product in
-            ProductItem(product: product)
+            ProductItemView(product: product)
           }
         }
       }.background(Color.lightGray)
       Text(LocalizedString.ProductList.label)
         .foregroundColor(.blue)
         .bold()
-        .padding(EdgeInsets(top: 16, leading: 16, bottom: 16, trailing: 16))
-    }.padding(EdgeInsets(top: 16, leading: 16, bottom: 0, trailing: 16)).background(Color.lightGray)
+        .padding(16)
+    }
+    .padding(16)
+    .background(Color.lightGray)
   }
 }
 
@@ -34,9 +36,9 @@ private extension LocalizedString {
   }
 }
 
-struct ProductList_Previews: PreviewProvider {
+struct ProductListView_Previews: PreviewProvider {
   static var products = ModelData().products
   static var previews: some View {
-    ProductList(items: Array(products.prefix(4)))
+    ProductListView(items: Array(products.prefix(4)))
   }
 }

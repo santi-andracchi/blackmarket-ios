@@ -7,25 +7,24 @@
 
 import SwiftUI
 
-
-struct ProductItem: View {
+struct ProductItemView: View {
   
   var product: Product
   
   var body: some View {
     VStack(alignment: .center) {
-      Image("blackmarket_chair")
+      Image(ImageNames.blackmarketChair)
         .frame(width: 136, height: 120)
       Spacer().frame(height: 8)
       HStack {
         Text(product.unitPrice).font(.system(size: 14))
         Spacer()
-        Image("blackmarket_new_tag")
+        Image(ImageNames.blackmarketNewTag)
       }.padding(EdgeInsets(top: 0, leading: 8, bottom: 0, trailing: 8))
       HStack {
         Text(product.name).font(.system(size: 14))
         Spacer()
-        Image("blackmarket_favorite_off")
+        Image(ImageNames.blackmarketFavoriteOff)
       }.padding(EdgeInsets(top: 8, leading: 8, bottom: 0, trailing: 8))
       Spacer().frame(height: 12)
     }.frame(width: 145, height: 196)
@@ -34,8 +33,8 @@ struct ProductItem: View {
   }
 }
 
-struct ProductRow_Previews: PreviewProvider {
+struct ProductView_Previews: PreviewProvider {
   static var previews: some View {
-    ProductItem(product: ModelData().products[0])
+    ProductItemView(product: ModelData().products[0])
   }
 }
