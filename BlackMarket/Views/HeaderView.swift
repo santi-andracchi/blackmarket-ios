@@ -7,23 +7,23 @@
 
 import SwiftUI
 
-struct Header: View {
+struct HeaderView: View {
   
   var body: some View {
     VStack {
       HStack {
         Spacer()
-        Image("blackmarket_logo")
-        Image("blackmarket_header")
+        Image(ImageNames.blackmarketLogo)
+        Image(ImageNames.blackmarketHeader)
         Spacer()
       }.frame(height: 56)
     }.background(Color.black)
   }
 }
 
-struct Header_Previews: PreviewProvider {
+struct HeaderView_Previews: PreviewProvider {
   static var previews: some View {
-    Header()
+    HeaderView()
   }
 }
 

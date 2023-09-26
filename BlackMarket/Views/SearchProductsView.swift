@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SearchProducts: View {
+struct SearchProductsView: View {
   @State private var productName = ""
   
   var body: some View {
@@ -15,11 +15,10 @@ struct SearchProducts: View {
       TextField("", text: $productName, prompt: Text(LocalizedString.SearchProducts.label))
         .frame(height: 40)
         .textFieldStyle(PlainTextFieldStyle())
-        .padding([.horizontal], 16)
+        .padding(.horizontal, 16)
         .cornerRadius(16)
         .overlay(RoundedRectangle(cornerRadius: 8).stroke(Color.gray))
-        .padding([.horizontal], 16)
-    }
+    }.padding(.horizontal, 16)
   }
 }
 
@@ -29,8 +28,8 @@ private extension LocalizedString {
   }
 }
 
-struct SearchProducts_Previews: PreviewProvider {
+struct SearchProductsView_Previews: PreviewProvider {
   static var previews: some View {
-    SearchProducts()
+    SearchProductsView()
   }
 }
