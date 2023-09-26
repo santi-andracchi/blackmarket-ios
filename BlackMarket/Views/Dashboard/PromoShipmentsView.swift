@@ -23,7 +23,7 @@ struct PromoShipmentsView: View {
       }
       .padding(EdgeInsets(top: 0, leading: 15, bottom: 0, trailing: 0))
       .background(.black)
-      Image("blackmarket_fedex").background(.black)
+      Image(ImageNames.blackmarketFedex).background(.black)
     }
     .background(.black)
     .cornerRadius(8)

@@ -6,13 +6,21 @@
 //
 
 import Foundation
-import SwiftUI
 
 struct Product: Hashable, Codable, Identifiable {
   var id: Int
-  var product_picture: String
-  var is_favorite: Bool
-  var unit_price: String
+  var productPicture: String
+  var isFavorite: Bool
+  var unitPrice: String
   var state: String
   var name: String
+  
+  enum CodingKeys: String, CodingKey {
+    case id
+    case productPicture = "product_picture"
+    case isFavorite = "is_favorite"
+    case unitPrice = "unit_price"
+    case state
+    case name
+  }
 }

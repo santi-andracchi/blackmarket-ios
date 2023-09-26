@@ -11,7 +11,7 @@ struct PurchasesList: View {
   var body: some View {
     VStack(alignment: .leading) {
       Spacer().frame(height: 1)
-      Header()
+      HeaderView()
       HStack(alignment: .top) {
         Text(LocalizedString.PurchasesList.title).multilineTextAlignment(.leading)
           .padding(.leading, 16)

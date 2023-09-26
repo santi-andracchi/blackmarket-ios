@@ -15,7 +15,7 @@ struct MainTabbedView: View {
     
     ZStack(alignment: .bottom){
       TabView(selection: $selectedTab) {
-        Dashboard()
+        DashboardView()
           .tag(0)
         PurchasesList()
           .tag(1)

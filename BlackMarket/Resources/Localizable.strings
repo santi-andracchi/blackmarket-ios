@@ -15,8 +15,8 @@
 "dashboard_payment_credit_label" = "Credit";
 "dashboard_payment_paypal_label" = "Paypal";
 "dashboard_payment_crypto_label" = "Crypto";
-"dashboard_promo_discount_title" = "We upgraded our shipments many levels up.";
-"dashboard_promo_discount_subtitle" = "Powered by FedEx";
+"dashboard_promo_shipments_title" = "We upgraded our shipments many levels up.";
+"dashboard_promo_shipments_subtitle" = "Powered by FedEx";
 
 // MARK: FAVOURITES
 "favourite_title" = "My favourites";
@@ -29,5 +29,3 @@
 
 // MARK: PURCHASES
 "purchases_title" = "My purchases";
-
-

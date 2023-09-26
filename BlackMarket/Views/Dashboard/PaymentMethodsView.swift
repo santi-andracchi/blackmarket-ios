@@ -14,27 +14,28 @@ struct PaymentMethodsView: View {
         .bold()
       HStack(alignment: .top) {
         VStack {
-          Image("blackmarket_credit_card")
+          Image(ImageNames.blackmarketCreditCard)
           Text(LocalizedString.PaymentMethods.credit)
             .padding(.top, 14)
         }
-        Image("blackmarket_line")
+        Image(ImageNames.blackmarketLine)
           .padding(.vertical, 0)
           .padding(.horizontal, 22)
         VStack(alignment: .center) {
-          Image("blackmarket_paypal")
+          Image(ImageNames.blackmarketPaypal)
           Text(LocalizedString.PaymentMethods.paypal)
             .padding(.top, 11)
         }
-        Image("blackmarket_line")
+        Image(ImageNames.blackmarketLine)
           .padding(.vertical, 0)
           .padding(.horizontal, 22)
         VStack(alignment: .center) {
-          Image("blackmarket_crypto")
+          Image(ImageNames.blackmarketCrypto)
           Text(LocalizedString.PaymentMethods.crypto)
             .padding(.top, 12)
         }
-      }.padding(.top, 41)
+      }
+      .padding(.top, 41)
     }
     .padding(.top, 30)
     .padding(.bottom, 45)
