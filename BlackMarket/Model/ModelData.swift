@@ -18,7 +18,7 @@ final class ModelData: ObservableObject {
   init() {
     self.products = load("productData.json")
   }
-  
+
   func load<T: Decodable>(_ filename: String) -> T {
     
     let data: Data
