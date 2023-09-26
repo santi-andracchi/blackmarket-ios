@@ -14,12 +14,12 @@ struct ContentView: View {
     VStack {
       ScrollView {
         Spacer().frame(height: 1)
-        Header()
-        SearchProducts()
-        ProductList(items: modelData.products)
-        PromoDiscount().background(Color.dashboardBackground)
+        HeaderView()
+        SearchProductsView()
+        ProductListView(items: modelData.products)
+        PromoDiscount().background(Color.lightGray)
         PaymentMethods()
-        PromoShipments().background(Color.dashboardBackground)
+        PromoShipments().background(Color.lightGray)
         Spacer()
       }
     }
