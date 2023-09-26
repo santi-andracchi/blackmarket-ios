@@ -8,23 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
-  @EnvironmentObject var modelData: ModelData
   
   var body: some View {
-    VStack {
-      ScrollView {
-        Spacer().frame(height: 1)
-        Header()
-        SearchProducts()
-        ProductList(items: modelData.products)
-        PromoDiscount().background(Color.dashboardBackground)
-        PaymentMethods()
-        PromoShipments().background(Color.dashboardBackground)
-        Spacer()
-      }
-    }
+    MainTabbedView()
   }
 }
+
 
 struct ContentView_Previews: PreviewProvider {
   static var previews: some View {

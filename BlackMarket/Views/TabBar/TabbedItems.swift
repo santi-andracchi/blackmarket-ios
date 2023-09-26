@@ -1,0 +1,44 @@
+//
+//  TabbedItems.swift
+//  BlackMarket
+//
+//  Created by Santiago Andracchi on 26/09/2023.
+//
+
+enum TabbedItems: Int, CaseIterable {
+  case dashboard = 0
+  case purchases
+  case shoppingCart
+  case favorite
+  case settings
+  
+  var title: String{
+    switch self {
+    case .dashboard:
+      return "Dashboard"
+    case .purchases:
+      return "Purchases"
+    case .shoppingCart:
+      return "ShoppingCart"
+    case .favorite:
+      return "Favorite"
+    case .settings:
+      return "Settings"
+    }
+  }
+  
+  var iconName: String{
+    switch self {
+    case .dashboard:
+      return "dashboard"
+    case .purchases:
+      return "purchase"
+    case .shoppingCart:
+      return "shopping_cart"
+    case .favorite:
+      return "favourite"
+    case .settings:
+      return "settings"
+    }
+  }
+}
