@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Settings: View {
+struct SettingsView: View {
   var body: some View {
     VStack(alignment: .leading) {
       Spacer().frame(height: 1)
@@ -31,6 +31,6 @@ private extension LocalizedString {
 
 struct Settings_Previews: PreviewProvider {
   static var previews: some View {
-    Settings()
+    SettingsView()
   }
 }

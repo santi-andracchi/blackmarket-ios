@@ -17,28 +17,26 @@ struct MainTabbedView: View {
       TabView(selection: $selectedTab) {
         DashboardView()
           .tag(0)
-        PurchasesList()
+        PurchasesListView()
           .tag(1)
-        ShoppingCartList()
+        ShoppingCartListView()
           .tag(2)
         FavouriteList()
           .tag(3)
-        Settings()
+        SettingsView()
           .tag(4)
       }
       
-      ZStack{
-        HStack{
-          ForEach((TabbedItems.allCases), id: \.self){ item in
-            Button{
-              selectedTab = item.rawValue
-            } label: {
-              CustomTabItem(imageName: item.iconName, title: item.title, isActive: (selectedTab == item.rawValue))
-            }
+      HStack{
+        ForEach((TabbedItem.allCases), id: \.self){ item in
+          Button{
+            selectedTab = item.rawValue
+          } label: {
+            customTabItemView(imageName: item.iconName, isActive: (selectedTab == item.rawValue))
           }
         }
-        .padding(6)
       }
+      .padding(6)
       .frame(height: 80)
       .background(.black)
     }
@@ -46,7 +44,7 @@ struct MainTabbedView: View {
 }
 
 extension MainTabbedView {
-  func CustomTabItem(imageName: String, title: String, isActive: Bool) -> some View{
+  func customTabItemView(imageName: String, isActive: Bool) -> some View {
     HStack(spacing: 10) {
       Spacer()
       Image(imageName)

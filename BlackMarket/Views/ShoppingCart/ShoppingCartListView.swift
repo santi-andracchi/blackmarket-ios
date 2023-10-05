@@ -1,5 +1,5 @@
 //
-//  PurchasesList.swift
+//  ShoppingCardList.swift
 //  BlackMarket
 //
 //  Created by Santiago Andracchi on 26/09/2023.
@@ -7,13 +7,13 @@
 
 import SwiftUI
 
-struct PurchasesList: View {
+struct ShoppingCartListView: View {
   var body: some View {
     VStack(alignment: .leading) {
       Spacer().frame(height: 1)
       HeaderView()
       HStack(alignment: .top) {
-        Text(LocalizedString.PurchasesList.title).multilineTextAlignment(.leading)
+        Text(LocalizedString.ShoppingCartList.title).multilineTextAlignment(.leading)
           .padding(.leading, 16)
           .padding(.top, 16)
         Spacer()
@@ -24,13 +24,14 @@ struct PurchasesList: View {
 }
 
 private extension LocalizedString {
-  enum PurchasesList {
-    static let title = "purchases_title".localized
+  enum ShoppingCartList {
+    static let title = "shopping_cart_title".localized
   }
 }
 
-struct PurchasesList_Previews: PreviewProvider {
+
+struct ShoppingCartList_Previews: PreviewProvider {
   static var previews: some View {
-    PurchasesList()
+    ShoppingCartListView()
   }
 }

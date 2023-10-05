@@ -5,27 +5,12 @@
 //  Created by Santiago Andracchi on 26/09/2023.
 //
 
-enum TabbedItems: Int, CaseIterable {
+enum TabbedItem: Int, CaseIterable {
   case dashboard = 0
   case purchases
   case shoppingCart
   case favorite
   case settings
-  
-  var title: String{
-    switch self {
-    case .dashboard:
-      return "Dashboard"
-    case .purchases:
-      return "Purchases"
-    case .shoppingCart:
-      return "ShoppingCart"
-    case .favorite:
-      return "Favorite"
-    case .settings:
-      return "Settings"
-    }
-  }
   
   var iconName: String{
     switch self {
