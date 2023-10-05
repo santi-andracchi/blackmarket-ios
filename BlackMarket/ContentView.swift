@@ -15,6 +15,7 @@ struct ContentView: View {
       Spacer().frame(height: 1)
       HeaderView()
       SearchProductsView()
+      ProductListView(items: modelData.products)
       Spacer()
     }
   }
