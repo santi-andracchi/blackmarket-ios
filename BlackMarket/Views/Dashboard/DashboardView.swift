@@ -8,15 +8,21 @@
 import SwiftUI
 
 struct DashboardView: View {
+
   @EnvironmentObject var modelData: ModelData
+  @ObservedObject private var viewModel: DashboardViewModel
   
+  init(viewModel: DashboardViewModel = DashboardViewModel()) {
+    self.viewModel = viewModel
+  }
+
   var body: some View {
     VStack {
       ScrollView {
         Spacer().frame(height: 1)
         HeaderView()
         SearchProductsView()
-        ProductListView(items: modelData.products)
+        ProductListView(items: viewModel.productList)
         PromoDiscountView().background(Color.lightGray)
         PaymentMethodsView()
         PromoShipmentsView().background(Color.lightGray)
