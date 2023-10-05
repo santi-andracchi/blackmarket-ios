@@ -17,3 +17,16 @@
 "dashboard_payment_crypto_label" = "Crypto";
 "dashboard_promo_shipments_title" = "We upgraded our shipments many levels up.";
 "dashboard_promo_shipments_subtitle" = "Powered by FedEx";
+
+
+// MARK: FAVOURITES
+"favourite_title" = "My favourites";
+
+// MARK: SHOPPING CART
+"shopping_cart_title" = "My shopping cart";
+
+// MARK: SETTINGS
+"settings_title" = "My settings";
+
+// MARK: PURCHASES
+"purchases_title" = "My purchases";

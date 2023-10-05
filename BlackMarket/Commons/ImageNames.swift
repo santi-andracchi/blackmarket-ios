@@ -13,4 +13,10 @@ struct ImageNames {
   static let blackmarketChair = "blackmarket_chair"
   static let blackmarketNewTag = "blackmarket_new_tag"
   static let blackmarketFavoriteOff = "blackmarket_favorite_off"
+  static let blackmarketSofa = "blackmarket_sofa"
+  static let blackmarketCreditCard = "blackmarket_credit_card"
+  static let blackmarketPaypal = "blackmarket_paypal"
+  static let blackmarketCrypto = "blackmarket_crypto"
+  static let blackmarketLine = "blackmarket_line"
+  static let blackmarketFedex = "blackmarket_fedex"
 }

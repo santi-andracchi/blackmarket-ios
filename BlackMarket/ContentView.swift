@@ -8,21 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
-  @EnvironmentObject var modelData: ModelData
   
   var body: some View {
-    VStack {
-      ScrollView {
-        Spacer().frame(height: 1)
-        HeaderView()
-        SearchProductsView()
-        ProductListView(items: modelData.products)
-        PromoDiscountView().background(Color.lightGray)
-        PaymentMethodsView()
-        PromoShipmentsView().background(Color.lightGray)
-        Spacer()
-      }
-    }
+    MainTabbedView()
   }
 }
 

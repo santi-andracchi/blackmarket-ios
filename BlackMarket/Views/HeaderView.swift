@@ -1,8 +1,8 @@
 //
-//  Header.swift
+//  HeaderView.swift
 //  BlackMarket
 //
-//  Created by Santiago Andracchi on 22/09/2023.
+//  Created by Santiago Andracchi on 26/09/2023.
 //
 
 import SwiftUI
@@ -16,8 +16,11 @@ struct HeaderView: View {
         Image(ImageNames.blackmarketLogo)
         Image(ImageNames.blackmarketHeader)
         Spacer()
-      }.frame(height: 56)
-    }.background(Color.black)
+
+      }
+      .frame(height: 56)
+    }
+    .background(Color.black)
   }
 }
 
@@ -26,4 +29,3 @@ struct HeaderView_Previews: PreviewProvider {
     HeaderView()
   }
 }
-
