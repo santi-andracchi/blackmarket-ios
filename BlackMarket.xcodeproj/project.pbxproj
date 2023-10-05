@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+
 		756269582AC1B92B00692D5C /* FavouriteList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756269572AC1B92B00692D5C /* FavouriteList.swift */; };
 		7562695B2AC1C0D400692D5C /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7562695A2AC1C0D400692D5C /* DashboardView.swift */; };
 		7572F4E82AC3727000913D4E /* SearchProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7572F4E72AC3727000913D4E /* SearchProductsView.swift */; };
@@ -127,6 +128,13 @@
 				7562695C2AC1C37C00692D5C /* Favourite */,
 				756269592AC1BF4100692D5C /* Dashboard */,
 				7572F4F42AC37ECD00913D4E /* HeaderView.swift */,
+				750305D52ABE198600905526 /* PromoDiscountView.swift */,
+				750305D72ABE19C900905526 /* PaymentMethodsView.swift */,
+				750305D92ABE1A0800905526 /* PromoShipmentsView.swift */,
+				750305CD2ABDFDF100905526 /* HeaderView.swift */,
+				750305CF2ABE05B000905526 /* SearchProductsView.swift */,
+				750305D12ABE169400905526 /* ProductListView.swift */,
+				750305D32ABE174800905526 /* ProductItemView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -194,6 +202,7 @@
 				75D552B22AB8BCBB0043D887 /* BlackMarketTests */,
 				75D552BC2AB8BCBC0043D887 /* BlackMarketUITests */,
 				75D552A02AB8BCBA0043D887 /* Products */,
+				75DE8DBE2ABDF41200285F4D /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -290,6 +299,14 @@
 			children = (
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		75DE8DBE2ABDF41200285F4D /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				75D552A92AB8BCBB0043D887 /* Preview Assets.xcassets */,
+			);
+			name = "Recovered References";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -396,6 +413,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75D552AA2AB8BCBB0043D887 /* Preview Assets.xcassets in Resources */,
 				75DE8DB92ABDDAD000285F4D /* .gitignore in Resources */,
 				75D552D12AB8CE860043D887 /* Localizable.strings in Resources */,
 				75DE8DAA2ABB517200285F4D /* productData.json in Resources */,

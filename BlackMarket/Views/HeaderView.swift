@@ -16,6 +16,7 @@ struct HeaderView: View {
         Image(ImageNames.blackmarketLogo)
         Image(ImageNames.blackmarketHeader)
         Spacer()
+
       }
       .frame(height: 56)
     }
