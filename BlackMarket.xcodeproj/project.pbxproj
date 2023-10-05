@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7533184A2AC4ABA5000E3242 /* RSRequestResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753318492AC4ABA5000E3242 /* RSRequestResponse.swift */; };
+		7533184C2AC4ABFA000E3242 /* RSAPIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7533184B2AC4ABFA000E3242 /* RSAPIError.swift */; };
+		755D3D4D2AC4BC5C0066C18F /* RSSwiftNetworking in Frameworks */ = {isa = PBXBuildFile; productRef = 755D3D4C2AC4BC5C0066C18F /* RSSwiftNetworking */; };
+		755D3D4F2AC4BC5C0066C18F /* RSSwiftNetworkingAlamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 755D3D4E2AC4BC5C0066C18F /* RSSwiftNetworkingAlamofire */; };
+		755D3D522AC5E3D50066C18F /* ProductServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755D3D512AC5E3D50066C18F /* ProductServices.swift */; };
+		755D3D542AC5E5E70066C18F /* PagedResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755D3D532AC5E5E70066C18F /* PagedResponse.swift */; };
+		755D3D5C2AC5EBF10066C18F /* ProductEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755D3D5B2AC5EBF10066C18F /* ProductEndpoint.swift */; };
+		755D3D602AC603D20066C18F /* ProductsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755D3D5F2AC603D20066C18F /* ProductsManager.swift */; };
+		755D3D622AC609B00066C18F /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755D3D612AC609B00066C18F /* DashboardViewModel.swift */; };
 		756269582AC1B92B00692D5C /* FavouriteList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756269572AC1B92B00692D5C /* FavouriteList.swift */; };
 		7562695B2AC1C0D400692D5C /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7562695A2AC1C0D400692D5C /* DashboardView.swift */; };
 		7572F4E82AC3727000913D4E /* SearchProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7572F4E72AC3727000913D4E /* SearchProductsView.swift */; };
@@ -17,12 +26,17 @@
 		7572F4F22AC3773300913D4E /* PromoShipmentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7572F4F12AC3773300913D4E /* PromoShipmentsView.swift */; };
 		7572F4F52AC37ECD00913D4E /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7572F4F42AC37ECD00913D4E /* HeaderView.swift */; };
 		7574EAEA2ABE207200234876 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7574EAE92ABE207200234876 /* String.swift */; };
+		7576C2852AC4B021001795BC /* RSApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7576C2842AC4B021001795BC /* RSApiClient.swift */; };
+		7576C2872AC4B062001795BC /* RSNetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7576C2862AC4B062001795BC /* RSNetworkProvider.swift */; };
+		7576C28A2AC4B0F8001795BC /* RSApiClient+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7576C2892AC4B0F8001795BC /* RSApiClient+Extension.swift */; };
+		7576C2912AC4B399001795BC /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7576C2902AC4B399001795BC /* SessionManager.swift */; };
 		758112762AC30381004819DB /* TabbedItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758112752AC30381004819DB /* TabbedItems.swift */; };
 		758112782AC305FA004819DB /* MainTabbedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758112772AC305FA004819DB /* MainTabbedView.swift */; };
 		7581127D2AC3120A004819DB /* ShoppingCartList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7581127C2AC3120A004819DB /* ShoppingCartList.swift */; };
 		7581127F2AC31227004819DB /* PurchasesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7581127E2AC31227004819DB /* PurchasesList.swift */; };
 		758112812AC31236004819DB /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758112802AC31236004819DB /* Settings.swift */; };
 		758112842AC339AF004819DB /* ImageNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758112832AC339AF004819DB /* ImageNames.swift */; };
+		75AB79C12AC617CF00D9D855 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AB79C02AC617CF00D9D855 /* Constants.swift */; };
 		75D552A32AB8BCBA0043D887 /* BlackMarketApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D552A22AB8BCBA0043D887 /* BlackMarketApp.swift */; };
 		75D552A52AB8BCBA0043D887 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D552A42AB8BCBA0043D887 /* ContentView.swift */; };
 		75D552A72AB8BCBB0043D887 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75D552A62AB8BCBB0043D887 /* Assets.xcassets */; };
@@ -40,14 +54,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		75D552B02AB8BCBB0043D887 /* PBXContainerItemProxy */ = {
+		75E17E1D2ACC68AE003FA3F1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 75D552972AB8BCBA0043D887 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 75D5529E2AB8BCBA0043D887;
 			remoteInfo = BlackMarket;
 		};
-		75D552BA2AB8BCBC0043D887 /* PBXContainerItemProxy */ = {
+		75E17E1F2ACC68B8003FA3F1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 75D552972AB8BCBA0043D887 /* Project object */;
 			proxyType = 1;
@@ -57,6 +71,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		753318492AC4ABA5000E3242 /* RSRequestResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSRequestResponse.swift; sourceTree = "<group>"; };
+		7533184B2AC4ABFA000E3242 /* RSAPIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSAPIError.swift; sourceTree = "<group>"; };
+		755D3D512AC5E3D50066C18F /* ProductServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductServices.swift; sourceTree = "<group>"; };
+		755D3D532AC5E5E70066C18F /* PagedResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagedResponse.swift; sourceTree = "<group>"; };
+		755D3D5B2AC5EBF10066C18F /* ProductEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductEndpoint.swift; sourceTree = "<group>"; };
+		755D3D5D2AC602200066C18F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		755D3D5F2AC603D20066C18F /* ProductsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsManager.swift; sourceTree = "<group>"; };
+		755D3D612AC609B00066C18F /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
 		756269572AC1B92B00692D5C /* FavouriteList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteList.swift; sourceTree = "<group>"; };
 		7562695A2AC1C0D400692D5C /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		7572F4E72AC3727000913D4E /* SearchProductsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchProductsView.swift; sourceTree = "<group>"; };
@@ -67,12 +89,17 @@
 		7572F4F12AC3773300913D4E /* PromoShipmentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoShipmentsView.swift; sourceTree = "<group>"; };
 		7572F4F42AC37ECD00913D4E /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		7574EAE92ABE207200234876 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		7576C2842AC4B021001795BC /* RSApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSApiClient.swift; sourceTree = "<group>"; };
+		7576C2862AC4B062001795BC /* RSNetworkProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSNetworkProvider.swift; sourceTree = "<group>"; };
+		7576C2892AC4B0F8001795BC /* RSApiClient+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RSApiClient+Extension.swift"; sourceTree = "<group>"; };
+		7576C2902AC4B399001795BC /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
 		758112752AC30381004819DB /* TabbedItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbedItems.swift; sourceTree = "<group>"; };
 		758112772AC305FA004819DB /* MainTabbedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbedView.swift; sourceTree = "<group>"; };
 		7581127C2AC3120A004819DB /* ShoppingCartList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartList.swift; sourceTree = "<group>"; };
 		7581127E2AC31227004819DB /* PurchasesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasesList.swift; sourceTree = "<group>"; };
 		758112802AC31236004819DB /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		758112832AC339AF004819DB /* ImageNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageNames.swift; sourceTree = "<group>"; };
+		75AB79C02AC617CF00D9D855 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		75D5529F2AB8BCBA0043D887 /* BlackMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75D552A22AB8BCBA0043D887 /* BlackMarketApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BlackMarketApp.swift; path = ../BlackMarketApp.swift; sourceTree = "<group>"; };
 		75D552A42AB8BCBA0043D887 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +124,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				755D3D4F2AC4BC5C0066C18F /* RSSwiftNetworkingAlamofire in Frameworks */,
+				755D3D4D2AC4BC5C0066C18F /* RSSwiftNetworking in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +160,45 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		753318482AC4AB44000E3242 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				755D3D5A2AC5EBC30066C18F /* Endpoints */,
+				755D3D592AC5E6930066C18F /* Model */,
+				755D3D502AC5E3AC0066C18F /* Services */,
+				7576C2882AC4B0AC001795BC /* Extensions */,
+				7576C2842AC4B021001795BC /* RSApiClient.swift */,
+				753318492AC4ABA5000E3242 /* RSRequestResponse.swift */,
+				7533184B2AC4ABFA000E3242 /* RSAPIError.swift */,
+				7576C2862AC4B062001795BC /* RSNetworkProvider.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		755D3D502AC5E3AC0066C18F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				755D3D512AC5E3D50066C18F /* ProductServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		755D3D592AC5E6930066C18F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				755D3D532AC5E5E70066C18F /* PagedResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		755D3D5A2AC5EBC30066C18F /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+				755D3D5B2AC5EBF10066C18F /* ProductEndpoint.swift */,
+			);
+			path = Endpoints;
+			sourceTree = "<group>";
+		};
 		756269592AC1BF4100692D5C /* Dashboard */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +209,7 @@
 				7572F4ED2AC3731C00913D4E /* PaymentMethodsView.swift */,
 				7572F4EF2AC376D200913D4E /* ProductItemView.swift */,
 				7572F4F12AC3773300913D4E /* PromoShipmentsView.swift */,
+				755D3D612AC609B00066C18F /* DashboardViewModel.swift */,
 			);
 			path = Dashboard;
 			sourceTree = "<group>";
@@ -151,6 +220,23 @@
 				756269572AC1B92B00692D5C /* FavouriteList.swift */,
 			);
 			path = Favourite;
+			sourceTree = "<group>";
+		};
+		7576C2882AC4B0AC001795BC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7576C2892AC4B0F8001795BC /* RSApiClient+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7576C28D2AC4B300001795BC /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				7576C2902AC4B399001795BC /* SessionManager.swift */,
+				755D3D5F2AC603D20066C18F /* ProductsManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 		758112742AC30344004819DB /* TabBar */ = {
@@ -210,6 +296,8 @@
 		75D552A12AB8BCBA0043D887 /* BlackMarket */ = {
 			isa = PBXGroup;
 			children = (
+				7576C28D2AC4B300001795BC /* Managers */,
+				753318482AC4AB44000E3242 /* Networking */,
 				750305CC2ABDFDCE00905526 /* Views */,
 				75DE8DBD2ABDEDD500285F4D /* Preview Content */,
 				75DE8DBA2ABDDEBE00285F4D /* Application */,
@@ -219,6 +307,7 @@
 				75D552CF2AB8CE580043D887 /* Resources */,
 				75D552A42AB8BCBA0043D887 /* ContentView.swift */,
 				75D552A62AB8BCBB0043D887 /* Assets.xcassets */,
+				755D3D5D2AC602200066C18F /* Info.plist */,
 			);
 			path = BlackMarket;
 			sourceTree = "<group>";
@@ -254,6 +343,7 @@
 			children = (
 				75DE8DA02AB9E9BE00285F4D /* ViewHelpers.swift */,
 				758112832AC339AF004819DB /* ImageNames.swift */,
+				75AB79C02AC617CF00D9D855 /* Constants.swift */,
 			);
 			path = Commons;
 			sourceTree = "<group>";
@@ -308,6 +398,10 @@
 			dependencies = (
 			);
 			name = BlackMarket;
+			packageProductDependencies = (
+				755D3D4C2AC4BC5C0066C18F /* RSSwiftNetworking */,
+				755D3D4E2AC4BC5C0066C18F /* RSSwiftNetworkingAlamofire */,
+			);
 			productName = BlackMarket;
 			productReference = 75D5529F2AB8BCBA0043D887 /* BlackMarket.app */;
 			productType = "com.apple.product-type.application";
@@ -323,7 +417,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				75D552B12AB8BCBB0043D887 /* PBXTargetDependency */,
+				75E17E1E2ACC68AE003FA3F1 /* PBXTargetDependency */,
 			);
 			name = BlackMarketTests;
 			productName = BlackMarketTests;
@@ -341,7 +435,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				75D552BB2AB8BCBC0043D887 /* PBXTargetDependency */,
+				75E17E202ACC68B8003FA3F1 /* PBXTargetDependency */,
 			);
 			name = BlackMarketUITests;
 			productName = BlackMarketUITests;
@@ -356,7 +450,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					75D5529E2AB8BCBA0043D887 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -380,6 +474,9 @@
 				Base,
 			);
 			mainGroup = 75D552962AB8BCBA0043D887;
+			packageReferences = (
+				755D3D4B2AC4BC5C0066C18F /* XCRemoteSwiftPackageReference "RSSwiftNetworking" */,
+			);
 			productRefGroup = 75D552A02AB8BCBA0043D887 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -424,14 +521,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				755D3D602AC603D20066C18F /* ProductsManager.swift in Sources */,
 				7572F4F22AC3773300913D4E /* PromoShipmentsView.swift in Sources */,
 				7581127F2AC31227004819DB /* PurchasesList.swift in Sources */,
+				755D3D622AC609B00066C18F /* DashboardViewModel.swift in Sources */,
+				7576C2872AC4B062001795BC /* RSNetworkProvider.swift in Sources */,
 				7581127D2AC3120A004819DB /* ShoppingCartList.swift in Sources */,
 				75D552A52AB8BCBA0043D887 /* ContentView.swift in Sources */,
+				7533184C2AC4ABFA000E3242 /* RSAPIError.swift in Sources */,
+				755D3D522AC5E3D50066C18F /* ProductServices.swift in Sources */,
 				7562695B2AC1C0D400692D5C /* DashboardView.swift in Sources */,
+				7576C2912AC4B399001795BC /* SessionManager.swift in Sources */,
 				758112812AC31236004819DB /* Settings.swift in Sources */,
+				7576C28A2AC4B0F8001795BC /* RSApiClient+Extension.swift in Sources */,
+				755D3D5C2AC5EBF10066C18F /* ProductEndpoint.swift in Sources */,
 				7572F4F52AC37ECD00913D4E /* HeaderView.swift in Sources */,
+				7533184A2AC4ABA5000E3242 /* RSRequestResponse.swift in Sources */,
 				758112842AC339AF004819DB /* ImageNames.swift in Sources */,
+				7576C2852AC4B021001795BC /* RSApiClient.swift in Sources */,
 				7572F4EC2AC372FC00913D4E /* PromoDiscountView.swift in Sources */,
 				75DE8DA12AB9E9BE00285F4D /* ViewHelpers.swift in Sources */,
 				75DE8DA72ABB468F00285F4D /* Product.swift in Sources */,
@@ -446,6 +553,8 @@
 				75DE8DBC2ABDDF0000285F4D /* LocalizedString.swift in Sources */,
 				758112762AC30381004819DB /* TabbedItems.swift in Sources */,
 				75D552A32AB8BCBA0043D887 /* BlackMarketApp.swift in Sources */,
+				755D3D542AC5E5E70066C18F /* PagedResponse.swift in Sources */,
+				75AB79C12AC617CF00D9D855 /* Constants.swift in Sources */,
 				758112782AC305FA004819DB /* MainTabbedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -470,15 +579,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		75D552B12AB8BCBB0043D887 /* PBXTargetDependency */ = {
+		75E17E1E2ACC68AE003FA3F1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 75D5529E2AB8BCBA0043D887 /* BlackMarket */;
-			targetProxy = 75D552B02AB8BCBB0043D887 /* PBXContainerItemProxy */;
+			targetProxy = 75E17E1D2ACC68AE003FA3F1 /* PBXContainerItemProxy */;
 		};
-		75D552BB2AB8BCBC0043D887 /* PBXTargetDependency */ = {
+		75E17E202ACC68B8003FA3F1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 75D5529E2AB8BCBA0043D887 /* BlackMarket */;
-			targetProxy = 75D552BA2AB8BCBC0043D887 /* PBXContainerItemProxy */;
+			targetProxy = 75E17E1F2ACC68B8003FA3F1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -487,6 +596,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -519,6 +629,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -547,6 +658,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -579,6 +691,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -602,11 +715,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BASE_URL = "";
+				"BASE_URL[arch=*]" = "https://black-market-juan-rs.herokuapp.com";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BlackMarket/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BlackMarket/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -619,9 +736,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example-app.BlackMarket";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -630,11 +750,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BASE_URL = "";
+				"BASE_URL[arch=*]" = "https://black-market-juan-rs.herokuapp.com";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BlackMarket/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BlackMarket/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -647,9 +771,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example-app.BlackMarket";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -701,6 +828,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example-app.BlackMarketUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -718,6 +846,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example-app.BlackMarketUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -765,6 +894,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		755D3D4B2AC4BC5C0066C18F /* XCRemoteSwiftPackageReference "RSSwiftNetworking" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rootstrap/RSSwiftNetworking";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		755D3D4C2AC4BC5C0066C18F /* RSSwiftNetworking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 755D3D4B2AC4BC5C0066C18F /* XCRemoteSwiftPackageReference "RSSwiftNetworking" */;
+			productName = RSSwiftNetworking;
+		};
+		755D3D4E2AC4BC5C0066C18F /* RSSwiftNetworkingAlamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 755D3D4B2AC4BC5C0066C18F /* XCRemoteSwiftPackageReference "RSSwiftNetworking" */;
+			productName = RSSwiftNetworkingAlamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 75D552972AB8BCBA0043D887 /* Project object */;
 }
