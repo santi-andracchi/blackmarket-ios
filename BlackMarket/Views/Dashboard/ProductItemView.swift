@@ -13,8 +13,13 @@ struct ProductItemView: View {
   
   var body: some View {
     VStack(alignment: .center) {
-      Image(ImageNames.blackmarketChair)
-        .frame(width: 136, height: 120)
+      AsyncImage(url: URL(string: product.productPicture)) { image in
+        image
+          .resizable()
+          .frame(width: 136, height: 120)
+      } placeholder: {
+        ProgressView().progressViewStyle(.circular)
+      }
       Spacer().frame(height: 8)
       HStack {
         Text(product.unitPrice).font(.system(size: 14))
