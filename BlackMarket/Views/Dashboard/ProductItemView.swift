@@ -13,7 +13,7 @@ struct ProductItemView: View {
   
   var body: some View {
     VStack(alignment: .center) {
-      AsyncImage(url: URL(string: product.productPicture)) { image in  // <-- here
+      AsyncImage(url: URL(string: product.productPicture)) { image in
         image
           .resizable()
           .frame(width: 136, height: 120)
