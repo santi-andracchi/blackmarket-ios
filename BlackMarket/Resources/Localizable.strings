@@ -28,4 +28,15 @@
 "settings_title" = "My settings";
 
 // MARK: PURCHASES
-"purchases_title" = "My purchases";
+"purchases_title" = "My Purchases 🎁";
+"purchases_list_dummy_hint" = "List of my incredible purchases here! ⬇️";
+"cancelled_purchases_button_text" = "Cancelled purchases 🚫";
+"pending_review_purchases_button_text" = "Pending review purchases 📋";
+"pending_review_purchases_title" = "Purchases with pending review 📋";
+"pending_review_purchases_dummy_hint" = "List of pending review purchases here! ⬇️";
+"purchase_detail_dummy_button_text" = "Go to a purchase detail 📦";
+"cancelled_purchases_title" = "Cancelled purchases 🚫";
+"cancelled_purchases_dummy_hint" = "List of cancelled purchases here! ⬇️";
+"purchase_detail_dummy_title" = "Dummy Purchase detail 📦";
+"purchase_detail_dummy_description" = "Awesome purchase description here! ⬇️";
+"purchase_detail_dummy_back_button_text" = "Back to main purchases view 🔙";

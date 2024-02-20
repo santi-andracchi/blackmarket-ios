@@ -17,13 +17,13 @@ struct MainTabbedView: View {
       TabView(selection: $selectedTab) {
         DashboardView()
           .tag(0)
-        PurchasesList()
+        PurchasesListView()
           .tag(1)
-        ShoppingCartList()
+        ShoppingCartListView()
           .tag(2)
-        FavouriteList()
+        FavouriteListView()
           .tag(3)
-        Settings()
+        SettingsView()
           .tag(4)
       }
       

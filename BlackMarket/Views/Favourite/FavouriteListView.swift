@@ -1,19 +1,19 @@
 //
-//  ShoppingCardList.swift
+//  Favorite.swift
 //  BlackMarket
 //
-//  Created by Santiago Andracchi on 26/09/2023.
+//  Created by Santiago Andracchi on 25/09/2023.
 //
 
 import SwiftUI
 
-struct ShoppingCartList: View {
+struct FavouriteListView: View {
   var body: some View {
     VStack(alignment: .leading) {
       Spacer().frame(height: 1)
       HeaderView()
       HStack(alignment: .top) {
-        Text(LocalizedString.ShoppingCartList.title).multilineTextAlignment(.leading)
+        Text(LocalizedString.FavouriteList.title).multilineTextAlignment(.leading)
           .padding(.leading, 16)
           .padding(.top, 16)
         Spacer()
@@ -24,14 +24,13 @@ struct ShoppingCartList: View {
 }
 
 private extension LocalizedString {
-  enum ShoppingCartList {
-    static let title = "shopping_cart_title".localized
+  enum FavouriteList {
+    static let title = "favourite_title".localized
   }
 }
 
-
-struct ShoppingCartList_Previews: PreviewProvider {
+struct FavouriteList_Previews: PreviewProvider {
   static var previews: some View {
-    ShoppingCartList()
+    FavouriteListView()
   }
 }

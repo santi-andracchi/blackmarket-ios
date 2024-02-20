@@ -55,7 +55,7 @@ internal enum ProductEndpoint: RailsAPIEndpoint {
       HTTPHeader.accept.rawValue: "*/*",
       HTTPHeader.contentType.rawValue: "application/json",
       // TODO: Use session manager properly after login
-      "Cookie" : "black-market-app-auth=; black-market-refresh-token=; csrftoken=; sessionid=;"
+//      "Cookie" : "black-market-app-auth=; black-market-refresh-token=; csrftoken=; sessionid=;"
     ]
   }
   
